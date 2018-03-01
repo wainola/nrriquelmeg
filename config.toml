@@ -1,0 +1,9 @@
+baseURL = "http://nrriquelmeg.cl/"
+languageCode = "en-us"
+title = "Nicolás Riquelme Guzmán"
+publicdir = "public"
+
+[params]
+    profesion = "Desarrollador Web"
+    about = "Programador wanabe oriundo de Santiago de Chile."
+    like = "Me apasiona aprender, comprender e integrar nuevos conocimientos."
