@@ -1,0 +1,11 @@
+sobre_mi:
+  headline: |
+            Me acerqué a la programación a través de mi interés en la economía computacional. Mis primeros pasos fueron con Python. Posteriormente aprendi desarrollo web frontend. La flexibilidad de Javascript y la ubicuidad de la web la hacen una plataforma idónea para el desarrollo de software.
+            <br>
+            <br>
+            Mis intereses actuales son el desarrolo de aplicaciones web progresivas (PWA), análisis de datos y Machine Learning con Python, microservicios, programación funcional y reactiva
+experiencia:
+  1_trabajo:
+  2_trabajo:
+  3_trabajo:
+  4_trabajo
