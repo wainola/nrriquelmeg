@@ -5,7 +5,27 @@ sobre_mi:
             <br>
             Mis intereses actuales son el desarrolo de aplicaciones web progresivas (PWA), análisis de datos y Machine Learning con Python, microservicios, programación funcional y reactiva
 experiencia:
-  1_trabajo:
-  2_trabajo:
-  3_trabajo:
-  4_trabajo
+  -
+    trabajo:
+      puesto: "Programador Frontend"
+      tiempo: "julio 2017 - febrero 2018"
+      ubicacion: "Santiagolab, Santiago, Chile"
+      que_hice: "Programador mayoritariamente frontend. Trabajé desarrollando proyectos web para clientes fundamentalmente en Hugo, integrando a HTML5 el framework Materialize o Bootstrap. A los proyectos se les integra Javascript (ES5/ES6) en la capa de interaciones y usualmente PHP en el backend. También efectué mantenciones de una aplicación en Ruby on Rails y dos proyectos en Wordpress."
+  -
+    trabajo:
+      puesto: "Profesor Instituto Hebreo"
+      tiempo: "2014 - 2016"
+      ubicacion: "Instituto Hebreo, Dr. Chaim Weizman, Santiago, Chile"
+      que_hice: "Profesor del taller de debate y capitán del equipo respectivo. Durante los años a cargo logramos posicionar el debate como una actividad relevante para el curriculo del colegio, buscando desarrollar habilidades de liderazgo comunicativo en nuestros alumnos."
+  -
+    trabajo:
+      puesto: "Profesor particular de matemáticas"
+      tiempo: "2013 - 2016"
+      ubicacion: "Santiago, Chile"
+      que_hice: "Profesor particular de matemáticas. Énfasis en enseñanza media"
+  -
+    trabajo:
+      puesto: "Asistente de Investigación Instituto de Historia"
+      tiempo: "2011 - 2012"
+      ubicacion: "Pontifica Universidad Católica de Chile"
+      que_hice: "Encargado de la recopilación, registro y transcripción de información documental referida al Diario Oficial para efectos de la historia del mismo."
