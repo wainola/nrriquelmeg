@@ -1,7 +1,22 @@
 {{ partial "header.html" . }}
 
 <body>
+    <!-- Titulo -->
     <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="photo-container">
+                    <img src="{{ $.Site.BaseURL }}img/niklas.png" alt="" class="mx-auto d-block">
+                </div>
+                <div class="text-center">
+                    <h1 class="card-title">{{ .Title }}</h1>
+                    <p class="category">{{ $.Site.Params.profesion }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav -->
+    <div class="container sticky-top">
         <header class="pegado" id="navegacion">
             <nav class="navbar navbar-expand-lg bg-info">
                 <div class="container">
@@ -34,20 +49,6 @@
                 </div>
             </nav>
         </header>
-    </div>
-    <!-- Titulo -->
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                <div class="photo-container">
-                    <img src="{{ $.Site.BaseURL }}img/niklas.png" alt="" class="mx-auto d-block">
-                </div>
-                <div class="text-center">
-                    <h1 class="card-title">{{ .Title }}</h1>
-                    <p class="category">{{ $.Site.Params.profesion }}</p>
-                </div>
-            </div>
-        </div>
     </div>
 
 

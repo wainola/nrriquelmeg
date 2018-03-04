@@ -1,4 +1,4 @@
-baseURL = "http://nrriquelmeg.cl/"
+baseURL = "//nrriquelmeg.cl/"
 languageCode = "en-us"
 title = "Nicolás Riquelme Guzmán"
 publicdir = "public"
