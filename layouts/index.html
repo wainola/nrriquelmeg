@@ -3,50 +3,56 @@
 <body class="sidebar-collapse">
 
     <!-- Nav -->
-    <nav class="navbar fixed-top navbar-expand-lg bg-primary navbar-transparent" color-on-scroll="40">
-        <div class="navbar-translate">
-            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-            </button>
-        </div>
-        <div class="container collapse navbar-collapse" id="navigation">
-            <div class="justify-content-start">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#me">Me!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experiencia">Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-placement="bottom" href="#skills">
-                            Skills
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-placement="bottom" href="#contacto">Contáctame!
-                        </a>
-                    </li>
-                </ul>
+    <div class="container sticky-top">
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
             </div>
-            <div class="justify-content-end">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" data-placement="bottom" href="#arriba">Top!
-                        </a>
-                    </li>
-                </ul>
+            <div class="container collapse navbar-collapse" id="navigation">
+                <div class="justify-content-start">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#me">Me!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-placement="bottom" href="#skills">
+                                Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-placement="bottom" href="#contacto">Contáctame!
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" data-placement="bottom" href="#arriba">Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-placement="bottom" href="#arriba">Top!
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <!-- Titulo -->
     <div class="container">
-        <div class="card">
-            <div class="card-body" id="arriba">
+        <div class="card" id="arriba">
+            <div class="card-body">
                 <div class="photo-container">
                     <img src="{{ $.Site.BaseURL }}img/niklas.png" alt="" class="mx-auto d-block">
                 </div>
