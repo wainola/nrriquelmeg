@@ -1,4 +1,5 @@
 baseURL = "//nrriquelmeg.cl/"
+# baseURL = "http://localhost:80/PersonalPage/"
 languageCode = "en-us"
 title = "Nicolás Rafael Riquelme Guzmán"
 publicdir = "public"
